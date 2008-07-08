@@ -1,0 +1,6 @@
+category: Devel
+requires: pkg-config ruby ruby-gettext ruby-glib2 ruby-gtk2 ruby-libglade2 ruby-pango
+sdesc: "pkg-config GUI viewer"
+ldesc: "GUI wrapper for pkg-config. This is a sample application for 
+Ruby/GTK2, Ruby/Libglade2 and Localization(L10n) using 
+Ruby-GetText-Package."

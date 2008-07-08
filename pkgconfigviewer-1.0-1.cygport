@@ -1,0 +1,6 @@
+inherit ruby
+
+DESCRIPTION="pkg-config GUI viewer"
+HOMEPAGE="http://ruby-gnome2.sourceforge.jp/hiki.cgi?pkg-config+viewer"
+#SRC_URI="http://ruby-gnome2.sourceforge.jp/hiki.cgi?c=plugin;plugin=attach_download;p=pkg-config+viewer;file_name=${P}.tar.gz"
+SRC_URI="${P}.tar.gz"

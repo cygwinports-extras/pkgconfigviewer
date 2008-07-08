@@ -1,0 +1,63 @@
+pkgconfigviewer
+------------------------------------------
+GUI wrapper for pkg-config. This is a sample application for Ruby/GTK2, 
+Ruby/Libglade2 and Localization(L10n) using Ruby-GetText-Package.
+
+Runtime requirements:
+  pkg-config
+  ruby-1.8.6_p118-2
+  ruby-gettext
+  ruby-glib2
+  ruby-gtk2
+  ruby-libglade2
+  ruby-pango
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.3.12-1
+  ruby-1.8.6_p118-2
+  ruby-gettext-1.91.0-1
+
+Canonical website:
+  http://ruby-gnome2.sourceforge.jp/hiki.cgi?pkg-config+viewer
+
+Canonical download:
+  http://ruby-gnome2.sourceforge.jp/hiki.cgi?pkg-config+viewer
+
+-------------------------------------------
+
+Build instructions:
+  unpack pkgconfigviewer-1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./pkgconfigviewer-1.0-X.cygport all
+
+This will create:
+  /usr/src/pkgconfigviewer-1.0-X-src.tar.bz2
+  /usr/src/pkgconfigviewer-1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/pkgconfigviewer
+  /usr/lib/ruby/site_ruby/1.8/pkgconfigviewer/config.rb
+  /usr/lib/ruby/site_ruby/1.8/pkgconfigviewer/pkgconfigviewerglade.rb
+  /usr/share/doc/pkgconfigviewer-1.0/COPYING
+  /usr/share/doc/pkgconfigviewer-1.0/ChangeLog
+  /usr/share/doc/pkgconfigviewer-1.0/README
+  /usr/share/locale/ja/LC_MESSAGES/pkgconfigviewer.mo
+  /usr/share/pkgconfigviewer/pkgconfigviewer.glade
+  /usr/share/pkgconfigviewer/pkgconfigviewer.gladep
+
+------------------
+
+Port Notes:
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
